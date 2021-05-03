@@ -37,6 +37,7 @@ public class TemanBaru extends AppCompatActivity {
                 if(tNama.getText().toString().equals("") || tTelpon.getText().toString().equals("")){
                     Toast.makeText(getApplicationContext(),"Data Belum komplit" ,Toast.LENGTH_SHORT).show();
                 }else {
+
                     nm = tNama.getText().toString();
                     tlp = tTelpon.getText().toString();
 

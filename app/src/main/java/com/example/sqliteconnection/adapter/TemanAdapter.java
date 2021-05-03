@@ -1,7 +1,6 @@
 package com.example.sqliteconnection.adapter;
 
 import android.annotation.SuppressLint;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,7 +39,6 @@ public class TemanAdapter extends RecyclerView.Adapter<TemanAdapter.TemanViewHol
         nm = ListData.get(position).getNama();
         tlp = ListData.get(position).getTelpon();
 
-        holder.namaTxt.setText(Color.BLUE);
         holder.namaTxt.setTextSize(20);
         holder.namaTxt.setText(nm);
         holder.telponTxt.setText(tlp);
